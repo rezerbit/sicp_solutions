@@ -1,3 +1,5 @@
+#lang racket
+
 (define (largest-two-square-sum x y z)  
   (if (= x (larger x y))  
     (sum-of-squares x (larger y z))  
@@ -11,3 +13,5 @@
   
 (define (square x)  
   (* x x)) 
+
+(largest-two-square-sum 1 2 3)
